@@ -16,7 +16,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
           Câu Lạc Bộ Thể Hình Ckầm Cảm
         </h1>
         <button
-          className={`dark-mode-toggle btn btn-${darkMode ? "light" : "dark"}`}
+          className={`dark-mode-toggle btn btn-${darkMode ? "light" : "dark"} px-2`}
           onClick={toggleDarkMode}
         >
           {darkMode ? (
