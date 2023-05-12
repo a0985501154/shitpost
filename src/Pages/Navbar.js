@@ -1,11 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import "./Navbar.css";
+
 
 const Navbar = ({ darkMode, toggleDarkMode }) => {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const isVisible = prevScrollPos > currentScrollPos || currentScrollPos === 0;
+
+      setPrevScrollPos(currentScrollPos);
+      setVisible(isVisible);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos]);
+
   return (
     <nav
       className={`navbar ${
         darkMode ? "navbar-dark bg-dark" : "navbar-light bg-light"
-      } fixed-top`}
+      } fixed-top ${visible ? "" : "navbar-hidden"}`}
     >
       <div className="container d-flex justify-content-between">
         <h1
