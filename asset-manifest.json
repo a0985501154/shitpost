@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/shitpost/static/css/main.d71b4741.css",
-    "main.js": "/shitpost/static/js/main.2aab40bb.js",
+    "main.js": "/shitpost/static/js/main.e317b298.js",
     "static/media/bootstrap-icons.woff?": "/shitpost/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/shitpost/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/shitpost/index.html",
     "main.d71b4741.css.map": "/shitpost/static/css/main.d71b4741.css.map",
-    "main.2aab40bb.js.map": "/shitpost/static/js/main.2aab40bb.js.map"
+    "main.e317b298.js.map": "/shitpost/static/js/main.e317b298.js.map"
   },
   "entrypoints": [
     "static/css/main.d71b4741.css",
-    "static/js/main.2aab40bb.js"
+    "static/js/main.e317b298.js"
   ]
 }
