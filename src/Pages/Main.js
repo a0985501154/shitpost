@@ -75,6 +75,28 @@ const Main = () => {
               }}
             />
           </SwiperSlide>
+          <SwiperSlide>
+            <div
+              style={{
+                backgroundImage: "url('https://via.placeholder.com/1200x800')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                width: "100%",
+                height: "100%",
+              }}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div
+              style={{
+                backgroundImage: "url('https://via.placeholder.com/1200x800')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                width: "100%",
+                height: "100%",
+              }}
+            />
+          </SwiperSlide>
         </Swiper>
         <div class="container">
           <div class="row">
