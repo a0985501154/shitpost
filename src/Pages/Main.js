@@ -98,41 +98,49 @@ const Main = () => {
             />
           </SwiperSlide>
         </Swiper>
-        <div class="container py-3">
-          <div class="row">
-            <div class="col-8">
-              {" "}
+        <div
+          className="container py-3"
+          data-aos="fade-down"
+          data-aos-duration="1250"
+        >
+          <h1 className="fw-bold border border-2 border-gray p-3 text-center hover-effect">
+            Meet our team of mim Lỏd Wjbu Coaches
+          </h1>
+        </div>
+        <div className="container py-3">
+          <div className="row">
+            <div className="col-8">
               <p data-aos="fade-right" data-aos-duration="1000">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 ut sapien in tellus mattis semper. Vivamus lobortis consequat
                 arcu, vitae condimentum ipsum maximus at. Vestibulum volutpat
                 diam at interdum lobortis.
               </p>
-              <p data-aos="fade-right" data-aos-duration="1200">
+              <p data-aos="fade-right" data-aos-duration="1000">
                 Phasellus ullamcorper, erat ac fringilla dapibus, neque lectus
                 lobortis risus, at efficitur tortor orci sit amet odio.
                 Pellentesque auctor dapibus purus, nec feugiat nisi semper a.
                 Quisque scelerisque diam lacus, a egestas urna imperdiet sed.
               </p>
-              <p data-aos="fade-right" data-aos-duration="1400">
+              <p data-aos="fade-right" data-aos-duration="1000">
                 Sed quis massa lacinia, fringilla velit eu, congue metus. Fusce
                 laoreet nisi quis dui sollicitudin tristique. Vivamus auctor
                 luctus urna vitae pellentesque. Aliquam aliquet felis et
                 sagittis volutpat. Maecenas at nunc non lacus convallis finibus.
               </p>
-              <p data-aos="fade-right" data-aos-duration="1600">
+              <p data-aos="fade-right" data-aos-duration="1000">
                 Duis laoreet efficitur enim a fringilla. In dapibus lacus eget
                 neque bibendum ultricies. Nam auctor urna in iaculis aliquet.
                 Nunc sed tristique mauris. Sed laoreet lacinia nunc at aliquet.
               </p>
-              <p data-aos="fade-right" data-aos-duration="1800">
+              <p data-aos="fade-right" data-aos-duration="1000">
                 Integer dapibus consectetur nibh, eget suscipit dui interdum
                 non. Donec aliquet tristique ex, id semper mauris. Sed efficitur
                 condimentum ante, sit amet facilisis nisi efficitur et. Ut
                 vulputate, neque ac elementum ullamcorper, metus massa euismod
                 nisl, eu dapibus velit neque sed lorem.
               </p>
-              <p data-aos="fade-right" data-aos-duration="2000">
+              <p data-aos="fade-right" data-aos-duration="1000">
                 Nulla fringilla lacus non ligula vestibulum, in gravida metus
                 dignissim. Pellentesque habitant morbi tristique senectus et
                 netus et malesuada fames ac turpis egestas. Sed eleifend, nisi
@@ -140,7 +148,10 @@ const Main = () => {
                 turpis mi id turpis. Etiam vestibulum turpis et semper pharetra.
               </p>
             </div>
-            <div class="col-4">LOL</div>
+            <div
+              className="col-4"
+            >
+            </div>
           </div>
         </div>
       </div>
