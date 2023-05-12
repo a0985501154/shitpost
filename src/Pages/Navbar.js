@@ -11,7 +11,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         <h1
           className={`navbar-brand ${
             darkMode ? "text-light" : "text-dark"
-          } fs-4 d-flex align-items-center`}
+          } fs-4 d-flex align-items-center px-2`}
         >
           Câu Lạc Bộ Thể Hình Ckầm Cảm
         </h1>
