@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper/core";
+import Footer from "./Footer";
 
 const Main = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -28,7 +29,6 @@ const Main = () => {
   return (
     <>
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-
       <div className={`outterwrap ${darkMode ? "dark-mode" : ""}`}>
         <Swiper
           pagination={{
@@ -283,6 +283,7 @@ const Main = () => {
             </div>
           </div>
         </div>
+        <Footer darkMode={darkMode} />
       </div>
     </>
   );
