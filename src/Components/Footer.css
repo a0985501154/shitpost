@@ -1,0 +1,32 @@
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(98, 220, 98);
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: green;
+}
+
+.back-to-top:hover::after {
+  content: "Back to top";
+  position: absolute;
+  top: -10%;
+  right: calc(100% + 10px);
+  transform: translateY(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+}

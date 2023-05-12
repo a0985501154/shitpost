@@ -1,19 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+import "./Footer.css";
 import {
   MDBFooter,
   MDBContainer,
   MDBRow,
   MDBCol,
   MDBIcon,
+  MDBBtn,
 } from "mdb-react-ui-kit";
 
 const Footer = ({ darkMode }) => {
-  const footerClassName = darkMode ? "dark-mode" : "";
+  const handleBackToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   return (
-    <footer className={`footer ${footerClassName}`}>
+    <footer className={`footer ${darkMode ? "dark-mode" : ""}`}>
       <MDBFooter
-        bgColor={darkMode ? "dark" : "light"}
+        bgColor="light"
         className="text-center text-lg-start text-muted"
       >
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -186,6 +193,10 @@ const Footer = ({ darkMode }) => {
           >
             MDBootstrap.com
           </a>
+        </div>
+        {/* Back to Top button */}
+        <div className="back-to-top" onClick={handleBackToTop}>
+          <i class="bi bi-arrow-up"></i>
         </div>
       </MDBFooter>
     </footer>

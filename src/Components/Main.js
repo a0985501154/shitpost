@@ -146,7 +146,7 @@ const Main = () => {
               <img
                 src="https://via.placeholder.com/1200x800"
                 alt="Placeholder"
-                className="img-fluid hover-effect"
+                className="img-fluid hover-effect rounded"
               />
             </div>
           </div>
@@ -161,7 +161,7 @@ const Main = () => {
               <img
                 src="https://via.placeholder.com/1200x800"
                 alt="Placeholder"
-                className="img-fluid hover-effect"
+                className="img-fluid hover-effect rounded"
               />
             </div>
             <div className="col-8">
@@ -234,7 +234,7 @@ const Main = () => {
               <img
                 src="https://via.placeholder.com/1200x800"
                 alt="Placeholder"
-                className="img-fluid hover-effect"
+                className="img-fluid hover-effect rounded"
               />
             </div>
           </div>
@@ -249,7 +249,7 @@ const Main = () => {
               <img
                 src="https://via.placeholder.com/1200x800"
                 alt="Placeholder"
-                className="img-fluid hover-effect"
+                className="img-fluid hover-effect rounded"
               />
             </div>
             <div className="col-8">
