@@ -103,54 +103,183 @@ const Main = () => {
           data-aos="fade-down"
           data-aos-duration="1250"
         >
-          <h1 className="fw-bold border border-2 border-gray p-3 text-center hover-effect">
+          <h1 className="fw-bold text-center hover-effect border-top border-bottom p-3">
             Meet our team of mim Lỏd Wjbu Coaches
           </h1>
         </div>
         <div className="container py-3">
           <div className="row">
             <div className="col-8">
-              <p data-aos="fade-right" data-aos-duration="1000">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                ut sapien in tellus mattis semper. Vivamus lobortis consequat
-                arcu, vitae condimentum ipsum maximus at. Vestibulum volutpat
-                diam at interdum lobortis.
-              </p>
-              <p data-aos="fade-right" data-aos-duration="1000">
-                Phasellus ullamcorper, erat ac fringilla dapibus, neque lectus
-                lobortis risus, at efficitur tortor orci sit amet odio.
-                Pellentesque auctor dapibus purus, nec feugiat nisi semper a.
-                Quisque scelerisque diam lacus, a egestas urna imperdiet sed.
-              </p>
-              <p data-aos="fade-right" data-aos-duration="1000">
-                Sed quis massa lacinia, fringilla velit eu, congue metus. Fusce
-                laoreet nisi quis dui sollicitudin tristique. Vivamus auctor
-                luctus urna vitae pellentesque. Aliquam aliquet felis et
-                sagittis volutpat. Maecenas at nunc non lacus convallis finibus.
-              </p>
-              <p data-aos="fade-right" data-aos-duration="1000">
-                Duis laoreet efficitur enim a fringilla. In dapibus lacus eget
-                neque bibendum ultricies. Nam auctor urna in iaculis aliquet.
-                Nunc sed tristique mauris. Sed laoreet lacinia nunc at aliquet.
-              </p>
-              <p data-aos="fade-right" data-aos-duration="1000">
-                Integer dapibus consectetur nibh, eget suscipit dui interdum
-                non. Donec aliquet tristique ex, id semper mauris. Sed efficitur
-                condimentum ante, sit amet facilisis nisi efficitur et. Ut
-                vulputate, neque ac elementum ullamcorper, metus massa euismod
-                nisl, eu dapibus velit neque sed lorem.
-              </p>
-              <p data-aos="fade-right" data-aos-duration="1000">
-                Nulla fringilla lacus non ligula vestibulum, in gravida metus
-                dignissim. Pellentesque habitant morbi tristique senectus et
-                netus et malesuada fames ac turpis egestas. Sed eleifend, nisi
-                at varius consequat, erat risus tincidunt nunc, id aliquam
-                turpis mi id turpis. Etiam vestibulum turpis et semper pharetra.
-              </p>
+              <div data-aos="fade-right" data-aos-duration="500">
+                <h1 className="text-center fw-bold display-4 text-success my-4 zoom-hover">
+                  Filler name
+                </h1>
+              </div>
+              <hr></hr>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
             </div>
             <div
-              className="col-4"
+              className="col-4 d-flex"
+              data-aos="fade-left"
+              data-aos-duration="1500"
             >
+              <img
+                src="https://via.placeholder.com/1200x800"
+                alt="Placeholder"
+                className="img-fluid hover-effect"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="container py-3">
+          <div className="row">
+            <div
+              className="col-4 d-flex"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
+              <img
+                src="https://via.placeholder.com/1200x800"
+                alt="Placeholder"
+                className="img-fluid hover-effect"
+              />
+            </div>
+            <div className="col-8">
+              <div data-aos="fade-left" data-aos-duration="500">
+                <h1 className="text-center fw-bold display-4 text-danger my-4 zoom-hover">
+                  Filler name
+                </h1>
+              </div>
+              <hr></hr>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container py-3">
+          <div className="row">
+            <div className="col-8">
+              <div data-aos="fade-right" data-aos-duration="500">
+                <h1 className="text-center fw-bold display-4 text-primary my-4 zoom-hover">
+                  Filler name
+                </h1>
+              </div>
+              <hr></hr>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-right" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+            </div>
+            <div
+              className="col-4 d-flex"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              <img
+                src="https://via.placeholder.com/1200x800"
+                alt="Placeholder"
+                className="img-fluid hover-effect"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="container py-3">
+          <div className="row">
+            <div
+              className="col-4 d-flex"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
+              <img
+                src="https://via.placeholder.com/1200x800"
+                alt="Placeholder"
+                className="img-fluid hover-effect"
+              />
+            </div>
+            <div className="col-8">
+              <div data-aos="fade-left" data-aos-duration="500">
+                <h1 className="text-center fw-bold display-4 text-warning my-4 zoom-hover">
+                  Filler name
+                </h1>
+              </div>
+              <hr></hr>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="1000">
+                <p className="">Filler Text</p>
+              </div>
             </div>
           </div>
         </div>
