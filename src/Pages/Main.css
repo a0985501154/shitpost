@@ -11,11 +11,9 @@
   color: #ccc;
 }
 
-.container {
-    width: 100%;
-    max-width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+.outterwrap {
+  width: 100%;
+  max-width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
