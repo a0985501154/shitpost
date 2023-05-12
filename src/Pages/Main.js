@@ -3,6 +3,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Main.css";
 import Navbar from "./Navbar";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
+import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper/core";
 
 const Main = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -20,18 +23,61 @@ const Main = () => {
     setDarkMode(!darkMode);
   };
 
+  SwiperCore.use([Pagination, Navigation, Autoplay]);
+
   return (
     <>
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 
       <div className={`container ${darkMode ? "dark-mode" : ""}`}>
-        <h1
-          className="cool-text text-center p-5"
-          data-aos="fade-down"
-          data-aos-duration="500"
+        <Swiper
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          autoplay={{
+            delay: 3000, // Set autoplay delay to 3 seconds
+            disableOnInteraction: false, // Allow autoplay to continue even when user interacts with swiper
+          }}
+          className="mySwiper"
+          style={{ width: "100%", height: "100vh" }} // Set swiper container width and height
         >
-          Welcome home, brother in arms
-        </h1>
+          <SwiperSlide>
+            <div
+              style={{
+                backgroundImage: "url('https://via.placeholder.com/1200x800')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                width: "100%",
+                height: "100%",
+              }}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div
+              style={{
+                backgroundImage: "url('https://via.placeholder.com/1200x800')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                width: "100%",
+                height: "100%",
+              }}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <div
+              style={{
+                backgroundImage: "url('https://via.placeholder.com/1200x800')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                width: "100%",
+                height: "100%",
+              }}
+            />
+          </SwiperSlide>
+        </Swiper>
+
+        {/* Rest of the code */}
       </div>
     </>
   );
