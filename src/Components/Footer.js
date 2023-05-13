@@ -18,10 +18,10 @@ const Footer = ({ darkMode }) => {
   };
 
   return (
-    <footer className={`footer ${darkMode ? "dark-mode" : ""}`}>
+<footer className={`footer ${darkMode ? "bg-dark text-white" : ""}`}>
       <MDBFooter
-        bgColor="light"
-        className="text-center text-lg-start text-muted"
+        bgColor={darkMode ? "dark" : "light"}
+        className="text-center text-lg-start"
       >
         <section className="d-flex justify-content-center p-4 border-bottom">
           <div className="d-none d-lg-block">

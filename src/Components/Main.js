@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper/core";
 import Footer from "./Footer";
+import Bateman from "../Asset/Img/Bateman.jpg";
 
 const Main = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -112,30 +113,30 @@ const Main = () => {
             <div className="col-8">
               <div data-aos="fade-down-right" data-aos-duration="500">
                 <h1 className="text-center fw-bold display-4 text-success my-4 zoom-hover">
-                  Filler name
+                  Châu Bateman
                 </h1>
               </div>
               <hr></hr>
               <div data-aos="fade-right" data-aos-duration="1000">
-                <p className="">Filler Text</p>
+                <h5 className="fw-bold text-center">Cosplayer/Men's physique competitor</h5>
               </div>
               <div data-aos="fade-right" data-aos-duration="1000">
-                <p className="">Filler Text</p>
+                <p className=""><b>Life Goal: </b> Làm đàn ông vĩ đại trở lại</p>
               </div>
               <div data-aos="fade-right" data-aos-duration="1000">
-                <p className="">Filler Text</p>
+                <p className=""><b>Description: </b> Hiệp sĩ bóng đêm kiêm nhà hoạt động chống suy đồi sự nam tính</p>
               </div>
               <div data-aos="fade-right" data-aos-duration="1000">
-                <p className="">Filler Text</p>
+              <p className=""><b>Best lifts(S/B/D): </b>170/130/160</p>
               </div>
               <div data-aos="fade-right" data-aos-duration="1000">
-                <p className="">Filler Text</p>
+                <p className=""><b>Area of operation: </b>Đà Nẵng</p>
               </div>
               <div data-aos="fade-right" data-aos-duration="1000">
-                <p className="">Filler Text</p>
+                <p className=""><b>Contact: </b>0367733784</p>
               </div>
               <div data-aos="fade-right" data-aos-duration="1000">
-                <p className="">Filler Text</p>
+                <a href="https://www.facebook.com/chau.vuong.731135"  className="custom-link"><b>Facebook: </b>https://rb.gy/xelq3</a>
               </div>
             </div>
             <div
@@ -144,7 +145,7 @@ const Main = () => {
               data-aos-duration="1500"
             >
               <img
-                src="https://via.placeholder.com/1200x800"
+                src={Bateman}
                 alt="Placeholder"
                 className="img-fluid hover-effect rounded"
               />
@@ -201,7 +202,8 @@ const Main = () => {
           data-aos-duration="1250"
         >
           <h3 className=" text-center hover-effect border-top border-bottom p-3">
-            We are open to both online and offline coaching (depends on location)
+            We are open to both online and offline coaching (depends on
+            location)
           </h3>
         </div>
         <div className="container py-3">

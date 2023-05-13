@@ -43,3 +43,13 @@
   transform: scale(1.05);
 }
 
+.custom-link {
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.custom-link:hover {
+  transform: scale(1.1);
+}
+
