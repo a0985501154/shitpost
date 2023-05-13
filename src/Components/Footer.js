@@ -23,53 +23,14 @@ const Footer = ({ darkMode }) => {
         bgColor="light"
         className="text-center text-lg-start text-muted"
       >
-        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-          <div className="me-5 d-none d-lg-block">
+        <section className="d-flex justify-content-center p-4 border-bottom">
+          <div className="d-none d-lg-block">
             <span>Get connected with us on social networks:</span>
           </div>
 
           <div>
-            <a href="/" className="me-4 text-reset">
-              <MDBIcon
-                color={darkMode ? "secondary" : "white"}
-                fab
-                icon="facebook-f"
-              />
-            </a>
-            <a href="/" className="me-4 text-reset">
-              <MDBIcon
-                color={darkMode ? "secondary" : "white"}
-                fab
-                icon="twitter"
-              />
-            </a>
-            <a href="/" className="me-4 text-reset">
-              <MDBIcon
-                color={darkMode ? "secondary" : "white"}
-                fab
-                icon="google"
-              />
-            </a>
-            <a href="/" className="me-4 text-reset">
-              <MDBIcon
-                color={darkMode ? "secondary" : "white"}
-                fab
-                icon="instagram"
-              />
-            </a>
-            <a href="/" className="me-4 text-reset">
-              <MDBIcon
-                color={darkMode ? "secondary" : "white"}
-                fab
-                icon="linkedin"
-              />
-            </a>
-            <a href="/" className="me-4 text-reset">
-              <MDBIcon
-                color={darkMode ? "secondary" : "white"}
-                fab
-                icon="github"
-              />
+            <a href="https://rb.gy/e70is" className="me-4 text-reset">
+              https://rb.gy/e70is
             </a>
           </div>
         </section>
@@ -186,12 +147,13 @@ const Footer = ({ darkMode }) => {
             backgroundColor: darkMode ? "#212529" : "rgba(0, 0, 0, 0.05)",
           }}
         >
-          © {new Date().getFullYear()} Company name:
+          {new Date().getFullYear()} Câu lạc bộ Thể Hình Ckầm Cảm:
           <a
             className={`text-reset fw-bold ${darkMode ? "text-light" : ""}`}
-            href="https://mdbootstrap.com/"
+            href="#!"
           >
-            MDBootstrap.com
+            {" "}
+            Personal Training Services
           </a>
         </div>
         {/* Back to Top button */}
