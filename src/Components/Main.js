@@ -9,6 +9,12 @@ import LoadingOverlay from "./LoadingOverlay";
 import "swiper/swiper-bundle.min.css";
 import Footer from "./Footer";
 import Bateman from "../Asset/Img/Bateman.jpg";
+import Doctor from "../Asset/Img/Dr.Muscle.jpg";
+import B1 from "../Asset/Img/B1.jpg";
+import B2 from "../Asset/Img/B2.jpg";
+import B3 from "../Asset/Img/B3.jpg";
+import B4 from "../Asset/Img/B4.jpg";
+import B5 from "../Asset/Img/B5.jpg";
 
 const Main = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -48,6 +54,20 @@ const Main = () => {
         <>
           <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
           <div className={`outterwrap ${darkMode ? "dark-mode" : ""}`}>
+            <a
+              className="text-center position-absolute text-white fs-3 zoom-hover"
+              href="#info"
+              style={{
+                bottom: "auto",
+                top: "6rem",
+                left: "3rem",
+                zIndex: 999,
+                textDecoration: "none",
+              }}
+            >
+              Our awesome Athletes/Coaches
+            </a>
+
             <Swiper
               pagination={{
                 clickable: true,
@@ -63,8 +83,7 @@ const Main = () => {
               <SwiperSlide>
                 <div
                   style={{
-                    backgroundImage:
-                      "url('https://via.placeholder.com/1200x800')",
+                    backgroundImage: `url(${B1})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     width: "100%",
@@ -75,8 +94,7 @@ const Main = () => {
               <SwiperSlide>
                 <div
                   style={{
-                    backgroundImage:
-                      "url('https://via.placeholder.com/1200x800')",
+                    backgroundImage: `url(${B2})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     width: "100%",
@@ -87,8 +105,7 @@ const Main = () => {
               <SwiperSlide>
                 <div
                   style={{
-                    backgroundImage:
-                      "url('https://via.placeholder.com/1200x800')",
+                    backgroundImage: `url(${B3})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     width: "100%",
@@ -99,8 +116,7 @@ const Main = () => {
               <SwiperSlide>
                 <div
                   style={{
-                    backgroundImage:
-                      "url('https://via.placeholder.com/1200x800')",
+                    backgroundImage: `url(${B4})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     width: "100%",
@@ -111,8 +127,7 @@ const Main = () => {
               <SwiperSlide>
                 <div
                   style={{
-                    backgroundImage:
-                      "url('https://via.placeholder.com/1200x800')",
+                    backgroundImage: `url(${B5})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     width: "100%",
@@ -126,13 +141,13 @@ const Main = () => {
               data-aos="fade-down"
               data-aos-duration="1250"
             >
-              <h1 className="fw-bold text-center hover-effect border-top border-bottom p-3">
+              <h1 className="fw-bold text-center hover-effect border-top border-bottom p-3" id="info">
                 Meet our team of mim Lỏd Wjbu Coaches
               </h1>
             </div>
             <div className="container py-3">
-              <div className="row">
-                <div className="col-8">
+              <div className="row rounded border">
+                <div className="col-md-8">
                   <div data-aos="fade-down-right" data-aos-duration="500">
                     <h1 className="text-center fw-bold display-4 text-success my-4 zoom-hover">
                       Châu Bateman
@@ -180,7 +195,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div
-                  className="col-4 d-flex"
+                  className="col-md-4 d-flex p-0"
                   data-aos="fade-up"
                   data-aos-duration="1500"
                 >
@@ -193,45 +208,60 @@ const Main = () => {
               </div>
             </div>
             <div className="container py-3">
-              <div className="row">
+              <div className="row rounded border">
                 <div
-                  className="col-4 d-flex"
+                  className="col-md-4 p-0 d-flex"
                   data-aos="fade-right"
                   data-aos-duration="1500"
                 >
                   <img
-                    src="https://via.placeholder.com/1200x800"
+                    src={Doctor}
                     alt="Placeholder"
                     className="img-fluid hover-effect rounded"
                   />
                 </div>
-                <div className="col-8">
+                <div className="col-md-8">
                   <div data-aos="fade-down" data-aos-duration="500">
                     <h1 className="text-center fw-bold display-4 text-danger my-4 zoom-hover">
-                      Filler name
+                      Phan Văn Tú
                     </h1>
                   </div>
                   <hr></hr>
                   <div data-aos="fade-down" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <h4 className="fw-bold text-center">Dr.Muscle</h4>
                   </div>
                   <div data-aos="fade-down" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <p className="">
+                      <b>Life Goal: </b> Một trí tuệ tốt trên một cơ thể mạnh
+                    </p>
                   </div>
                   <div data-aos="fade-down" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <p className="">
+                      <b>Description: </b> Bác sĩ với cột sống Titan
+                    </p>
                   </div>
                   <div data-aos="fade-down" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <p className="">
+                      <b>Best lifts(S/B/D): </b> 195/120/205
+                    </p>
                   </div>
                   <div data-aos="fade-down" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <p className="">
+                      <b>Area of operation: </b>Hà Nội
+                    </p>
                   </div>
                   <div data-aos="fade-down" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <p className="">
+                      <b>Contact: </b> 0904821146
+                    </p>
                   </div>
                   <div data-aos="fade-down" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <a
+                      href="https://www.facebook.com/67phantu"
+                      className="custom-link"
+                    >
+                      <b>Facebook: </b>https://rb.gy/lw7yf
+                    </a>
                   </div>
                 </div>
               </div>
@@ -247,9 +277,9 @@ const Main = () => {
               </h3>
             </div>
             <div className="container py-3">
-              <div className="row">
-                <div className="col-8">
-                  <div data-aos="fade-down-left" data-aos-duration="500">
+              <div className="row rounded border">
+                <div className="col-md-8">
+                  <div data-aos="fade-down" data-aos-duration="500">
                     <h1 className="text-center fw-bold display-4 text-primary my-4 zoom-hover">
                       Filler name
                     </h1>
@@ -278,7 +308,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div
-                  className="col-4 d-flex"
+                  className="col-md-4 p-0 d-flex"
                   data-aos="fade-up"
                   data-aos-duration="1500"
                 >
@@ -291,9 +321,9 @@ const Main = () => {
               </div>
             </div>
             <div className="container py-3">
-              <div className="row">
+              <div className="row rounded border">
                 <div
-                  className="col-4 d-flex"
+                  className="col-md-4 p-0 d-flex"
                   data-aos="fade-right"
                   data-aos-duration="1500"
                 >
@@ -303,7 +333,7 @@ const Main = () => {
                     className="img-fluid hover-effect rounded"
                   />
                 </div>
-                <div className="col-8">
+                <div className="col-md-8">
                   <div data-aos="fade-up" data-aos-duration="500">
                     <h1 className="text-center fw-bold display-4 text-warning my-4 zoom-hover">
                       Filler name
