@@ -37,11 +37,11 @@ const Main = () => {
           }}
           navigation={true}
           autoplay={{
-            delay: 3000, // Set autoplay delay to 3 seconds
-            disableOnInteraction: false, // Allow autoplay to continue even when user interacts with swiper
+            delay: 1500, 
+            disableOnInteraction: false, 
           }}
           className="mySwiper"
-          style={{ width: "100%", height: "100vh" }} // Set swiper container width and height
+          style={{ width: "100%", height: "100vh" }} 
         >
           <SwiperSlide>
             <div
