@@ -1,17 +1,23 @@
 {
   "files": {
     "main.css": "/shitpost/static/css/main.d0d208a5.css",
-    "main.js": "/shitpost/static/js/main.3937aae9.js",
+    "main.js": "/shitpost/static/js/main.69e43222.js",
     "static/media/Loading.mp4": "/shitpost/static/media/Loading.eb60330203d685a025a6.mp4",
-    "static/media/Bateman.jpg": "/shitpost/static/media/Bateman.edeba5cc41df34ad4524.jpg",
+    "static/media/Dr.Muscle.jpg": "/shitpost/static/media/Dr.Muscle.0e104ef54a5c19f202c4.jpg",
+    "static/media/B5.jpg": "/shitpost/static/media/B5.887367374223cdb1e105.jpg",
+    "static/media/B3.jpg": "/shitpost/static/media/B3.a7b93cb7ee3735f43be9.jpg",
+    "static/media/B4.jpg": "/shitpost/static/media/B4.7c24279c9fa1977f760a.jpg",
+    "static/media/B2.jpg": "/shitpost/static/media/B2.4ea2af8de235dbbc2298.jpg",
+    "static/media/Bateman.jpg": "/shitpost/static/media/Bateman.bd7f54872eb7b43eb1ee.jpg",
+    "static/media/B1.jpg": "/shitpost/static/media/B1.f8d6b639f07ba58c7b03.jpg",
     "static/media/bootstrap-icons.woff?": "/shitpost/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/shitpost/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/shitpost/index.html",
     "main.d0d208a5.css.map": "/shitpost/static/css/main.d0d208a5.css.map",
-    "main.3937aae9.js.map": "/shitpost/static/js/main.3937aae9.js.map"
+    "main.69e43222.js.map": "/shitpost/static/js/main.69e43222.js.map"
   },
   "entrypoints": [
     "static/css/main.d0d208a5.css",
-    "static/js/main.3937aae9.js"
+    "static/js/main.69e43222.js"
   ]
 }
