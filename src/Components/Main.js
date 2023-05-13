@@ -110,7 +110,7 @@ const Main = () => {
         <div className="container py-3">
           <div className="row">
             <div className="col-8">
-              <div data-aos="fade-right" data-aos-duration="500">
+              <div data-aos="fade-down-right" data-aos-duration="500">
                 <h1 className="text-center fw-bold display-4 text-success my-4 zoom-hover">
                   Filler name
                 </h1>
@@ -140,7 +140,7 @@ const Main = () => {
             </div>
             <div
               className="col-4 d-flex"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-duration="1500"
             >
               <img
@@ -165,40 +165,49 @@ const Main = () => {
               />
             </div>
             <div className="col-8">
-              <div data-aos="fade-left" data-aos-duration="500">
+              <div data-aos="fade-down" data-aos-duration="500">
                 <h1 className="text-center fw-bold display-4 text-danger my-4 zoom-hover">
                   Filler name
                 </h1>
               </div>
               <hr></hr>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-down" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-down" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-down" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-down" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-down" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-down" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-down" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
             </div>
           </div>
         </div>
+        <div
+          className="container py-3"
+          data-aos="fade-down-up"
+          data-aos-duration="1250"
+        >
+          <h3 className=" text-center hover-effect border-top border-bottom p-3">
+            We are open to both online and offline coaching (depends on location)
+          </h3>
+        </div>
         <div className="container py-3">
           <div className="row">
             <div className="col-8">
-              <div data-aos="fade-right" data-aos-duration="500">
+              <div data-aos="fade-down-right" data-aos-duration="500">
                 <h1 className="text-center fw-bold display-4 text-primary my-4 zoom-hover">
                   Filler name
                 </h1>
@@ -228,7 +237,7 @@ const Main = () => {
             </div>
             <div
               className="col-4 d-flex"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-duration="1500"
             >
               <img
@@ -253,31 +262,31 @@ const Main = () => {
               />
             </div>
             <div className="col-8">
-              <div data-aos="fade-left" data-aos-duration="500">
+              <div data-aos="fade-up" data-aos-duration="500">
                 <h1 className="text-center fw-bold display-4 text-warning my-4 zoom-hover">
                   Filler name
                 </h1>
               </div>
               <hr></hr>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-up" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-up" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-up" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-up" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-up" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-up" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div data-aos="fade-up" data-aos-duration="1000">
                 <p className="">Filler Text</p>
               </div>
             </div>
