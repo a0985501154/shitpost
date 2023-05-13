@@ -25,9 +25,9 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
 
   const getNavbarTitle = () => {
     if (isMobile) {
-      return "CLB Thể Hình Ckầm Cảm";
+      return "PT Services";
     } else {
-      return "Câu Lạc Bộ Thể Hình Ckầm Cảm";
+      return "Personal Training Services";
     }
   };
 
