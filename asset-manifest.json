@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/shitpost/static/css/main.ba33a9a0.css",
-    "main.js": "/shitpost/static/js/main.3e8ebf12.js",
+    "main.css": "/shitpost/static/css/main.5ef4a6e8.css",
+    "main.js": "/shitpost/static/js/main.7129d5ac.js",
+    "static/media/Bateman.jpg": "/shitpost/static/media/Bateman.edeba5cc41df34ad4524.jpg",
     "static/media/bootstrap-icons.woff?": "/shitpost/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/shitpost/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/shitpost/index.html",
-    "main.ba33a9a0.css.map": "/shitpost/static/css/main.ba33a9a0.css.map",
-    "main.3e8ebf12.js.map": "/shitpost/static/js/main.3e8ebf12.js.map"
+    "main.5ef4a6e8.css.map": "/shitpost/static/css/main.5ef4a6e8.css.map",
+    "main.7129d5ac.js.map": "/shitpost/static/js/main.7129d5ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba33a9a0.css",
-    "static/js/main.3e8ebf12.js"
+    "static/css/main.5ef4a6e8.css",
+    "static/js/main.7129d5ac.js"
   ]
 }
