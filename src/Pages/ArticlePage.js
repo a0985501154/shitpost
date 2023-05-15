@@ -9,7 +9,6 @@ import SwiperCore, { Pagination, Navigation } from "swiper/core";
 import "swiper/swiper-bundle.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ReactMarkdown from "react-markdown";
 import MarkdownRenderer from "./MarkdownRenderer";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -59,7 +58,7 @@ const ArticlePage = ({ data }) => {
                 to={`/article/${index}`}
                 className="article-link text-decoration-none link-unstyled"
               >
-                <div className="article row text-center">
+                <div className="container row text-center m-2">
                   <div className="col-md-2"></div> {/* Filler column */}
                   <div className="col-md-4">
                     <img
@@ -84,7 +83,13 @@ const ArticlePage = ({ data }) => {
         <Container>
           <Row>
             <Col>
-              <h2>{article.title}</h2>
+              <h1
+                className="text-center"
+                data-aos="fade-down"
+                data-aos-duration="500"
+              >
+                {article.title}
+              </h1>
               <img src={article.image} alt={article.title} />
               <MarkdownRenderer content={article.content} />
             </Col>
