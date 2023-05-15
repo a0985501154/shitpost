@@ -8,6 +8,7 @@ import {
   MDBIcon,
   MDBBtn,
 } from "mdb-react-ui-kit";
+import megumin from "../Asset/Img/Footermin.jpg"
 
 const Footer = ({ darkMode }) => {
   const handleBackToTop = () => {
@@ -18,7 +19,7 @@ const Footer = ({ darkMode }) => {
   };
 
   return (
-<footer className={`footer ${darkMode ? "bg-dark text-white" : ""}`}>
+    <footer className={`footer ${darkMode ? "bg-dark text-white" : ""}`}>
       <MDBFooter
         bgColor={darkMode ? "dark" : "light"}
         className="text-center text-lg-start"
@@ -36,110 +37,51 @@ const Footer = ({ darkMode }) => {
         </section>
 
         <section className="">
-          <MDBContainer className="text-center text-md-start mt-5">
-            <MDBRow className="mt-3">
-              <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  <MDBIcon
-                    color={darkMode ? "secondary" : "white"}
-                    icon="gem"
-                    className="me-3"
-                  />
-                  Company name
-                </h6>
-                <p>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
-                </p>
-              </MDBCol>
+  <MDBContainer className="text-center text-md-start mt-5">
+    <MDBRow className="mt-3">
+      <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
+        <img src={megumin} alt="Megumin.png" className="img-fluid" />
+      </MDBCol>
 
-              <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Products</h6>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Angular
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    React
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Vue
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Laravel
-                  </a>
-                </p>
-              </MDBCol>
+      <MDBCol md="4" lg="4" xl="4" className="mx-auto mb-4 text-center">
+        <h6 className="text-uppercase fw-bold mb-4">
+          <MDBIcon
+            color={darkMode ? "secondary" : "white"}
+            icon="gem"
+            className="me-3"
+          />
+          Our motto
+        </h6>
+        <p>"Elevate, Dominate, and Blaze a Dank Trail to Gainz!"</p>
+      </MDBCol>
 
-              <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Usefullinks</h6>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Pricing
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Settings
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Orders
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Help
-                  </a>
-                </p>
-              </MDBCol>
+      <MDBCol md="3" lg="3" xl="3" className="mx-auto mb-4">
+        <h6 className="text-uppercase fw-bold mb-4">Useful Links</h6>
+        <p>
+          <a href="#!" className="text-reset">
+            Pricing
+          </a>
+        </p>
+        <p>
+          <a href="#!" className="text-reset">
+            Settings
+          </a>
+        </p>
+        <p>
+          <a href="#!" className="text-reset">
+            Orders
+          </a>
+        </p>
+        <p>
+          <a href="#!" className="text-reset">
+            Help
+          </a>
+        </p>
+      </MDBCol>
+    </MDBRow>
+  </MDBContainer>
+</section>
 
-              <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                <p>
-                  <MDBIcon
-                    color={darkMode ? "secondary" : "white"}
-                    icon="home"
-                    className="me-2"
-                  />
-                  New York, NY 10012, US
-                </p>
-                <p>
-                  <MDBIcon
-                    color={darkMode ? "secondary" : "white"}
-                    icon="envelope"
-                    className="me-3"
-                  />
-                  info@example.com
-                </p>
-                <p>
-                  <MDBIcon
-                    color={darkMode ? "secondary" : "white"}
-                    icon="phone"
-                    className="me-3"
-                  />{" "}
-                  +01 234 567 88
-                </p>
-                <p>
-                  <MDBIcon
-                    color={darkMode ? "secondary" : "white"}
-                    icon="print"
-                    className="me-3"
-                  />{" "}
-                  +01 234 567 89
-                </p>
-              </MDBCol>
-            </MDBRow>
-          </MDBContainer>
-        </section>
 
         <div
           className="text-center p-4"

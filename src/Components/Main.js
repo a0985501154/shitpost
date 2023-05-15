@@ -15,6 +15,7 @@ import B2 from "../Asset/Img/B2.jpg";
 import B3 from "../Asset/Img/B3.jpg";
 import B4 from "../Asset/Img/B4.jpg";
 import B5 from "../Asset/Img/B5.jpg";
+import TripleT from "../Asset/Img/TripleT.jpg";
 
 const Main = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -141,7 +142,10 @@ const Main = () => {
               data-aos="fade-down"
               data-aos-duration="1250"
             >
-              <h1 className="fw-bold text-center hover-effect border-top border-bottom p-3" id="info">
+              <h1
+                className="fw-bold text-center hover-effect border-top border-bottom p-3"
+                id="info"
+              >
                 Meet our team of mim Lỏd Wjbu Coaches
               </h1>
             </div>
@@ -182,7 +186,7 @@ const Main = () => {
                   </div>
                   <div data-aos="fade-right" data-aos-duration="1000">
                     <p className="">
-                      <b>Contact: </b>0367733784
+                      <b>Offer both online and offline coaching</b>
                     </p>
                   </div>
                   <div data-aos="fade-right" data-aos-duration="1000">
@@ -252,7 +256,7 @@ const Main = () => {
                   </div>
                   <div data-aos="fade-down" data-aos-duration="1000">
                     <p className="">
-                      <b>Contact: </b> 0904821146
+                      <b>Offer online coaching</b>
                     </p>
                   </div>
                   <div data-aos="fade-down" data-aos-duration="1000">
@@ -281,30 +285,51 @@ const Main = () => {
                 <div className="col-md-8">
                   <div data-aos="fade-down" data-aos-duration="500">
                     <h1 className="text-center fw-bold display-4 text-primary my-4 zoom-hover">
-                      Filler name
+                      Thanh Tài
                     </h1>
                   </div>
                   <hr></hr>
                   <div data-aos="fade-right" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <h4 className="fw-bold text-center">TripleT</h4>
                   </div>
                   <div data-aos="fade-right" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <p className="">
+                      <b>Life Goal: </b> Help others grow strong both physically
+                      and mentally.
+                    </p>
                   </div>
                   <div data-aos="fade-right" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <p className="">
+                      <b>Description: </b> Struggling with consistency in your
+                      exercise routine? Look no further! I am a dedicated
+                      personal trainer committed to helping you forge a healthy
+                      lifestyle and develop long-term exercise habits. With my
+                      expertise and personalized approach, I will design a
+                      program tailored to your unique needs and goals. Whether
+                      it's strength training, cardio, flexibility work, or
+                      mindfulness practices, I will guide you every step of the
+                      way.
+                    </p>
                   </div>
                   <div data-aos="fade-right" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <p className="">
+                      <b>Best lifts(S/B/D): </b> 170/100/200
+                    </p>
                   </div>
                   <div data-aos="fade-right" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <p className="">
+                      <b>Area of operation: </b>Tp.Hồ Chí Minh
+                    </p>
                   </div>
                   <div data-aos="fade-right" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <p className="">
+                      <b>Offer both online and offline coaching</b>
+                    </p>
                   </div>
                   <div data-aos="fade-right" data-aos-duration="1000">
-                    <p className="">Filler Text</p>
+                    <a href="https://rb.gy/h5mq3" className="custom-link">
+                      <b>Facebook: </b>https://rb.gy/h5mq3
+                    </a>
                   </div>
                 </div>
                 <div
@@ -313,7 +338,7 @@ const Main = () => {
                   data-aos-duration="1500"
                 >
                   <img
-                    src="https://via.placeholder.com/1200x800"
+                    src={TripleT}
                     alt="Placeholder"
                     className="img-fluid hover-effect rounded"
                   />
