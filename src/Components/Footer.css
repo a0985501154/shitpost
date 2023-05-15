@@ -30,3 +30,13 @@
   border-radius: 5px;
   font-size: 18px;
 }
+
+.custom-link {
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.custom-link:hover {
+  transform: scale(1.1);
+}

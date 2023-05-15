@@ -8,7 +8,7 @@ import {
   MDBIcon,
   MDBBtn,
 } from "mdb-react-ui-kit";
-import megumin from "../Asset/Img/Footermin.jpg"
+import megumin from "../Asset/Img/Footermin.jpg";
 
 const Footer = ({ darkMode }) => {
   const handleBackToTop = () => {
@@ -37,51 +37,50 @@ const Footer = ({ darkMode }) => {
         </section>
 
         <section className="">
-  <MDBContainer className="text-center text-md-start mt-5">
-    <MDBRow className="mt-3">
-      <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
-        <img src={megumin} alt="Megumin.png" className="img-fluid" />
-      </MDBCol>
+          <MDBContainer className="text-center text-md-start mt-5">
+            <MDBRow className="mt-3">
+              <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
+                <img src={megumin} alt="Megumin.png" className="img-fluid" />
+              </MDBCol>
 
-      <MDBCol md="4" lg="4" xl="4" className="mx-auto mb-4 text-center">
-        <h6 className="text-uppercase fw-bold mb-4">
-          <MDBIcon
-            color={darkMode ? "secondary" : "white"}
-            icon="gem"
-            className="me-3"
-          />
-          Our motto
-        </h6>
-        <p>"Elevate, Dominate, and Blaze a Dank Trail to Gainz!"</p>
-      </MDBCol>
+              <MDBCol md="4" lg="4" xl="4" className="mx-auto mb-4 text-center">
+                <h6 className="text-uppercase fw-bold mb-4">
+                  <MDBIcon
+                    color={darkMode ? "secondary" : "white"}
+                    icon="gem"
+                    className="me-3"
+                  />
+                  Our motto
+                </h6>
+                <p>"Elevate, Dominate, and Blaze a Dank Trail to Gainz!"</p>
+              </MDBCol>
 
-      <MDBCol md="3" lg="3" xl="3" className="mx-auto mb-4">
-        <h6 className="text-uppercase fw-bold mb-4">Useful Links</h6>
-        <p>
-          <a href="#!" className="text-reset">
-            Pricing
-          </a>
-        </p>
-        <p>
-          <a href="#!" className="text-reset">
-            Settings
-          </a>
-        </p>
-        <p>
-          <a href="#!" className="text-reset">
-            Orders
-          </a>
-        </p>
-        <p>
-          <a href="#!" className="text-reset">
-            Help
-          </a>
-        </p>
-      </MDBCol>
-    </MDBRow>
-  </MDBContainer>
-</section>
-
+              <MDBCol md="3" lg="3" xl="3" className="mx-auto mb-4">
+                <h6 className="text-uppercase fw-bold mb-4">Useful Links</h6>
+                <p>
+                  <a href="#!" className="text-reset custom-link">
+                    <b> Châu:</b> https://rb.gy/xelq3
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset custom-link">
+                    <b> Tú: </b>https://rb.gy/lw7yf
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset custom-link">
+                    <b>Tài: </b>https://rb.gy/h5mq3
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset custom-link">
+                    <b></b>
+                  </a>
+                </p>
+              </MDBCol>
+            </MDBRow>
+          </MDBContainer>
+        </section>
 
         <div
           className="text-center p-4"
