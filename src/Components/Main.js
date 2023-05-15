@@ -25,6 +25,7 @@ const Main = () => {
   );
 
   useEffect(() => {
+    AOS.init();
     localStorage.setItem("darkMode", darkMode);
     if (darkMode) {
       document.documentElement.classList.add("dark-mode");
@@ -126,49 +127,50 @@ const Main = () => {
           </SwiperSlide>
         </Swiper>
         <div className="main-content">
-        <div
-          className="container pt-1"
-          data-aos="fade-down"
-          data-aos-duration="1250"
-        >
-          <h2
-            className="fw-bold text-center hover-effect border-top border-bottom p-3"
-            id="info"
+          <div
+            className="container"
+            data-aos="fade-down"
+            data-aos-duration="1250"
           >
-            Articles from our coaches on lifting and lifestyle 
-          </h2>
-        </div>
-        <Swiper
-          slidesPerView={1}
-          pagination={{ clickable: true }}
-          navigation
-          loop
-        >
-          {articles.map((article, index) => (
-            <SwiperSlide key={article.id}>
-              <Link
-                to={`/article/${index}`}
-                className="article-link text-decoration-none link-unstyled"
-              >
-                <div className="article row text-center">
-                  <div className="col-md-2"></div> {/* Filler column */}
-                  <div className="col-md-4">
-                    <img
-                      src={article.image}
-                      alt={article.title}
-                      className="img-fluid rounded"
-                    />
+            <h1
+              className="fw-bold text-center hover-effect border-top border-bottom p-3"
+              id="info"
+            >
+              Some useful articles on lifting and lifestyle
+            </h1>
+          </div>
+
+          <Swiper
+            slidesPerView={1}
+            pagination={{ clickable: true }}
+            navigation
+            loop
+          >
+            {articles.map((article, index) => (
+              <SwiperSlide key={article.id}>
+                <Link
+                  to={`/article/${index}`}
+                  className="article-link text-decoration-none link-unstyled"
+                >
+                  <div className="container row text-center m-2">
+                    <div className="col-md-2"></div> {/* Filler column */}
+                    <div className="col-md-4">
+                      <img
+                        src={article.image}
+                        alt={article.title}
+                        className="img-fluid rounded"
+                      />
+                    </div>
+                    <div className="col-md-4 d-flex flex-column justify-content-center">
+                      <h2>{article.title}</h2>
+                      <p>{article.shortDescription}</p>
+                    </div>
+                    <div className="col-md-2"></div> {/* Filler column */}
                   </div>
-                  <div className="col-md-4 d-flex flex-column justify-content-center">
-                    <h2>{article.title}</h2>
-                    <p>{article.shortDescription}</p>
-                  </div>
-                  <div className="col-md-2"></div> {/* Filler column */}
-                </div>
-              </Link>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+                </Link>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
         <div
           className="container py-3"
