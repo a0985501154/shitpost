@@ -1,0 +1,22 @@
+.article-page {
+  padding: 1.25rem;
+  padding-left: 4rem;
+}
+
+.article-page h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.article-page img {
+  margin-bottom: 1rem;
+  max-width: 100%;
+}
+
+.article-page p {
+  line-height: 1.5;
+}
+
+.link-unstyled {
+  color: inherit;
+}

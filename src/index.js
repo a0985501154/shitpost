@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './index.css';
-import Main from './Components/Main';
+import App from './App';
 
-
-ReactDOM.render(<Main />, document.getElementById('root'));
-
+createRoot(document.getElementById('root')).render(<App />);

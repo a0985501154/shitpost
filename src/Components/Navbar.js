@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = ({ darkMode, toggleDarkMode }) => {
@@ -44,7 +45,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
               darkMode ? "text-light" : "text-dark"
             } fs-4 m-0 px-2`}
           >
-            {getNavbarTitle()}
+            <Link to="/" className="navbar-link home-link custom-link">{getNavbarTitle()}</Link>
           </h1>
         </div>
         <div className="navbar-dark-mode">
