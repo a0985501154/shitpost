@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shitpost/static/css/main.a9ae817a.css",
-    "main.js": "/shitpost/static/js/main.8572b02a.js",
+    "main.js": "/shitpost/static/js/main.c18dea14.js",
     "static/media/Loading.mp4": "/shitpost/static/media/Loading.eb60330203d685a025a6.mp4",
     "static/media/B5.jpg": "/shitpost/static/media/B5.887367374223cdb1e105.jpg",
     "static/media/B3.jpg": "/shitpost/static/media/B3.a7b93cb7ee3735f43be9.jpg",
@@ -16,10 +16,10 @@
     "static/media/bootstrap-icons.woff2?": "/shitpost/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/shitpost/index.html",
     "main.a9ae817a.css.map": "/shitpost/static/css/main.a9ae817a.css.map",
-    "main.8572b02a.js.map": "/shitpost/static/js/main.8572b02a.js.map"
+    "main.c18dea14.js.map": "/shitpost/static/js/main.c18dea14.js.map"
   },
   "entrypoints": [
     "static/css/main.a9ae817a.css",
-    "static/js/main.8572b02a.js"
+    "static/js/main.c18dea14.js"
   ]
 }
