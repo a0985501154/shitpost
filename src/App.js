@@ -8,6 +8,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Main />} />
+        <Route path="/shitpost" element={<Main />} />
         <Route
           path="/article/:index"
           element={<ArticlePage data={articles} />}
