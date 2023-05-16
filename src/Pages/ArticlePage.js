@@ -9,8 +9,11 @@ import SwiperCore, { Pagination, Navigation } from "swiper/core";
 import "swiper/swiper-bundle.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import MarkdownRenderer from "./MarkdownRenderer";
-import { Container, Row, Col } from "react-bootstrap";
+import SubPage1 from "./ArticleSubPage/SubPage1";
+import SubPage2 from "./ArticleSubPage/SubPage2";
+import SubPage3 from "./ArticleSubPage/SubPage3";
+import SubPage4 from "./ArticleSubPage/SubPage4";
+import SubPage5 from "./ArticleSubPage/SubPage5";
 
 const ArticlePage = ({ data }) => {
   const { index } = useParams();
@@ -21,7 +24,7 @@ const ArticlePage = ({ data }) => {
   }, []);
 
   SwiperCore.use([Pagination, Navigation]);
-
+  const [selectedSubPage, setSelectedSubPage] = useState(1);
   const [darkMode, setDarkMode] = useState(
     localStorage.getItem("darkMode") === "true"
   );
@@ -49,6 +52,10 @@ const ArticlePage = ({ data }) => {
         <Swiper
           slidesPerView={1}
           pagination={{ clickable: true }}
+          autoplay={{
+            delay: 1500,
+            disableOnInteraction: false,
+          }}
           navigation
           loop
         >
@@ -57,46 +64,36 @@ const ArticlePage = ({ data }) => {
               <Link
                 to={`/article/${index}`}
                 className="article-link text-decoration-none link-unstyled"
+                onClick={() => setSelectedSubPage(index + 1)}
               >
-                <div className="container row text-center m-2">
-                  <div className="col-md-2"></div> {/* Filler column */}
-                  <div className="col-md-4">
+                <div className="container row text-center mx-0 mt-3">
+                  <div className="col-md-2 d-none d-md-block"></div>
+                  <div className="col-md-4 d-flex align-items-center justify-content-center">
                     <img
                       src={article.image}
                       alt={article.title}
-                      className="img-fluid rounded"
+                      className="img-fluid rounded mx-auto d-block"
+                      style={{ margin: "0 auto" }}
                     />
                   </div>
                   <div className="col-md-4 d-flex flex-column justify-content-center">
                     <h2>{article.title}</h2>
                     <p>{article.shortDescription}</p>
                   </div>
-                  <div className="col-md-2"></div> {/* Filler column */}
+                  <div className="col-md-2 d-none d-md-block"></div>
                 </div>
               </Link>
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
-
       <div className={`article-page ${darkMode ? "dark-mode" : ""}`}>
-        <Container>
-          <Row>
-            <Col>
-              <h1
-                className="text-center"
-                data-aos="fade-down"
-                data-aos-duration="500"
-              >
-                {article.title}
-              </h1>
-              <img src={article.image} alt={article.title} />
-              <MarkdownRenderer content={article.content} />
-            </Col>
-          </Row>
-        </Container>
+        {selectedSubPage === 1 && <SubPage1 />}
+        {selectedSubPage === 2 && <SubPage2 />}
+        {selectedSubPage === 3 && <SubPage3 />}
+        {selectedSubPage === 4 && <SubPage4 />}
+        {selectedSubPage === 5 && <SubPage5 />}
       </div>
-
       <Footer darkMode={darkMode} />
     </>
   );

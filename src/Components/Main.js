@@ -143,6 +143,10 @@ const Main = () => {
           <Swiper
             slidesPerView={1}
             pagination={{ clickable: true }}
+            autoplay={{
+              delay: 1500,
+              disableOnInteraction: false,
+            }}
             navigation
             loop
           >
