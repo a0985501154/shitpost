@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/shitpost/static/css/main.a9ae817a.css",
-    "main.js": "/shitpost/static/js/main.c18dea14.js",
+    "main.css": "/shitpost/static/css/main.34ae55ad.css",
+    "main.js": "/shitpost/static/js/main.da45185d.js",
     "static/media/Loading.mp4": "/shitpost/static/media/Loading.eb60330203d685a025a6.mp4",
+    "static/media/Squat.png": "/shitpost/static/media/Squat.40fbb8b65505b070f4ca.png",
     "static/media/B5.jpg": "/shitpost/static/media/B5.887367374223cdb1e105.jpg",
     "static/media/B3.jpg": "/shitpost/static/media/B3.a7b93cb7ee3735f43be9.jpg",
     "static/media/B4.jpg": "/shitpost/static/media/B4.7c24279c9fa1977f760a.jpg",
     "static/media/TripleT.jpg": "/shitpost/static/media/TripleT.158df4b81f590e104471.jpg",
     "static/media/Dr.Muscle.jpg": "/shitpost/static/media/Dr.Muscle.d813a90e8450b62c8b02.jpg",
     "static/media/B2.jpg": "/shitpost/static/media/B2.4ea2af8de235dbbc2298.jpg",
+    "static/media/Row.jpg": "/shitpost/static/media/Row.914b54b731c24a129f5e.jpg",
     "static/media/B1.jpg": "/shitpost/static/media/B1.f8d6b639f07ba58c7b03.jpg",
+    "static/media/Dead.jpg": "/shitpost/static/media/Dead.717a8cbba3003c17bc4a.jpg",
+    "static/media/Bench.jpg": "/shitpost/static/media/Bench.cef3d48c902917134dde.jpg",
     "static/media/Bateman.jpg": "/shitpost/static/media/Bateman.82673d1acc5b30fdb7c0.jpg",
     "static/media/bootstrap-icons.woff?": "/shitpost/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/Footermin.jpg": "/shitpost/static/media/Footermin.a7086177e4f344133c96.jpg",
     "static/media/bootstrap-icons.woff2?": "/shitpost/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/OHP.jpg": "/shitpost/static/media/OHP.8ba362e7f96063aa84fd.jpg",
     "index.html": "/shitpost/index.html",
-    "main.a9ae817a.css.map": "/shitpost/static/css/main.a9ae817a.css.map",
-    "main.c18dea14.js.map": "/shitpost/static/js/main.c18dea14.js.map"
+    "main.34ae55ad.css.map": "/shitpost/static/css/main.34ae55ad.css.map",
+    "main.da45185d.js.map": "/shitpost/static/js/main.da45185d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9ae817a.css",
-    "static/js/main.c18dea14.js"
+    "static/css/main.34ae55ad.css",
+    "static/js/main.da45185d.js"
   ]
 }
