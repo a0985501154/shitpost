@@ -66,21 +66,27 @@ const ArticlePage = ({ data }) => {
                 className="article-link text-decoration-none link-unstyled"
                 onClick={() => setSelectedSubPage(index + 1)}
               >
-                <div className="container row text-center mx-0 mt-3">
-                  <div className="col-md-2 d-none d-md-block"></div>
-                  <div className="col-md-4 d-flex align-items-center justify-content-center">
-                    <img
-                      src={article.image}
-                      alt={article.title}
-                      className="img-fluid rounded mx-auto d-block"
-                      style={{ margin: "0 auto" }}
-                    />
+                <div
+                  className="container-fluid text-center mt-3"
+                  style={{ height: "50vh" }}
+                >
+                  <div className="row justify-content-center h-100">
+                    <div className="col-md-6 col-12">
+                      <div
+                        className="rounded bg-cover bg-center h-100"
+                        style={{
+                          backgroundImage: `url(${article.image})`,
+                          backgroundPosition: "center",
+                          backgroundRepeat: "no-repeat",
+                          backgroundSize: "auto 100%",
+                        }}
+                      ></div>
+                    </div>
+                    <div className="col-md-4 col-12 d-flex flex-column justify-content-center">
+                      <h2>{article.title}</h2>
+                      <p>{article.shortDescription}</p>
+                    </div>
                   </div>
-                  <div className="col-md-4 d-flex flex-column justify-content-center">
-                    <h2>{article.title}</h2>
-                    <p>{article.shortDescription}</p>
-                  </div>
-                  <div className="col-md-2 d-none d-md-block"></div>
                 </div>
               </Link>
             </SwiperSlide>

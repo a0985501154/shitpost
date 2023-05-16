@@ -156,20 +156,27 @@ const Main = () => {
                   to={`/article/${index}`}
                   className="article-link text-decoration-none link-unstyled"
                 >
-                  <div className="container row text-center m-2">
-                    <div className="col-md-2"></div> {/* Filler column */}
-                    <div className="col-md-4">
-                      <img
-                        src={article.image}
-                        alt={article.title}
-                        className="img-fluid rounded"
-                      />
+                  <div
+                    className="container-fluid text-center mt-3"
+                    style={{ height: "50vh" }}
+                  >
+                    <div className="row justify-content-center h-100">
+                      <div className="col-md-6 col-12">
+                        <div
+                          className="rounded bg-cover bg-center h-100"
+                          style={{
+                            backgroundImage: `url(${article.image})`,
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "auto 100%",
+                          }}
+                        ></div>
+                      </div>
+                      <div className="col-md-4 col-12 d-flex flex-column justify-content-center">
+                        <h2>{article.title}</h2>
+                        <p>{article.shortDescription}</p>
+                      </div>
                     </div>
-                    <div className="col-md-4 d-flex flex-column justify-content-center">
-                      <h2>{article.title}</h2>
-                      <p>{article.shortDescription}</p>
-                    </div>
-                    <div className="col-md-2"></div> {/* Filler column */}
                   </div>
                 </Link>
               </SwiperSlide>
