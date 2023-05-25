@@ -435,6 +435,7 @@ const Main = () => {
           </div>
         </div>
       </div>
+      div
       <Footer darkMode={darkMode} />
     </>
   );
