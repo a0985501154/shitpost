@@ -12,6 +12,7 @@
     "bootstrap-icons": "^1.10.5",
     "gsap": "^3.11.5",
     "mdb-react-ui-kit": "^6.0.0",
+    "mssql": "^9.1.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
@@ -55,5 +56,17 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   },
-  "homepage": "https://a0985501154.github.io/shitpost/"
+  "homepage": "https://a0985501154.github.io/shitpost/",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a0985501154/shitpost.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a0985501154/shitpost/issues"
+  }
 }
