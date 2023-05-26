@@ -14,6 +14,7 @@ import SubPage2 from "./ArticleSubPage/SubPage2";
 import SubPage3 from "./ArticleSubPage/SubPage3";
 import SubPage4 from "./ArticleSubPage/SubPage4";
 import SubPage5 from "./ArticleSubPage/SubPage5";
+import ProgressBar from "../Components/ProgressBar";
 
 const ArticlePage = ({ data }) => {
   const { index } = useParams();
@@ -47,6 +48,7 @@ const ArticlePage = ({ data }) => {
   }
   return (
     <>
+      <ProgressBar  />
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <div className={`swiper-container ${darkMode ? "dark-mode" : ""} pt-5`}>
         <Swiper

@@ -53,3 +53,13 @@
   transform: scale(1.1);
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  transition: transform 0.3s;
+}
+
+/* Styling for the zoom hover effect on the buttons */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(2); /* Adjust the desired scale value */
+}

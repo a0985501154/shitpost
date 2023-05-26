@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper/core";
+import 'swiper/swiper.min.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Main.css";
@@ -18,6 +19,7 @@ import B4 from "../Asset/Img/B4.jpg";
 import B5 from "../Asset/Img/B5.jpg";
 import TripleT from "../Asset/Img/TripleT.jpg";
 import { articles } from "../Pages/ArticleData";
+import ProgressBar from './ProgressBar';
 
 const Main = () => {
   const [darkMode, setDarkMode] = useState(
@@ -42,6 +44,7 @@ const Main = () => {
 
   return (
     <>
+      <ProgressBar  />
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <div className={`outterwrap ${darkMode ? "dark-mode" : ""}`}>
         <a
