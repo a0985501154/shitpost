@@ -1,0 +1,30 @@
+.article-page {
+  padding: 1.25rem;
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    margin-bottom: 1rem;
+    max-width: 100%;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+}
+
+.link-unstyled {
+  color: inherit;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(2); /* Adjust the desired scale value */
+  }
+}

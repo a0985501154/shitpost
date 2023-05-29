@@ -24,6 +24,7 @@
     "react-tsparticles": "^2.9.3",
     "remark-gfm": "^3.0.1",
     "remark-slug": "^7.0.1",
+    "sass": "^1.62.1",
     "swiper": "^9.3.1",
     "web-vitals": "^2.1.4"
   },

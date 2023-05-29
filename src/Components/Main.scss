@@ -1,0 +1,55 @@
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+
+  .cool-text {
+    color: #f0f0f0;
+  }
+
+  .paragraphs p {
+    color: #ccc;
+  }
+}
+
+.outterwrap {
+  width: 100%;
+  max-width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.hover-effect {
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.zoom-hover {
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.custom-link {
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(2); /* Adjust the desired scale value */
+  }
+}

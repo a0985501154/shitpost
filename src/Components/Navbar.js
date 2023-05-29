@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "./Navbar.scss";
 
 const Navbar = ({ darkMode, toggleDarkMode }) => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
