@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/shitpost/static/css/main.644ebe4d.css",
-    "main.js": "/shitpost/static/js/main.f285530c.js",
-    "static/media/Loading.mp4": "/shitpost/static/media/Loading.eb60330203d685a025a6.mp4",
+    "main.css": "/shitpost/static/css/main.9a711ed9.css",
+    "main.js": "/shitpost/static/js/main.5a544d11.js",
     "static/media/Squat.png": "/shitpost/static/media/Squat.40fbb8b65505b070f4ca.png",
     "static/media/B5.jpg": "/shitpost/static/media/B5.887367374223cdb1e105.jpg",
     "static/media/B3.jpg": "/shitpost/static/media/B3.a7b93cb7ee3735f43be9.jpg",
@@ -25,11 +24,11 @@
     "static/media/s2.png": "/shitpost/static/media/s2.33eb93d5f141c1f0e83a.png",
     "static/media/s4.gif": "/shitpost/static/media/s4.adc8c99181d851005a76.gif",
     "index.html": "/shitpost/index.html",
-    "main.644ebe4d.css.map": "/shitpost/static/css/main.644ebe4d.css.map",
-    "main.f285530c.js.map": "/shitpost/static/js/main.f285530c.js.map"
+    "main.9a711ed9.css.map": "/shitpost/static/css/main.9a711ed9.css.map",
+    "main.5a544d11.js.map": "/shitpost/static/js/main.5a544d11.js.map"
   },
   "entrypoints": [
-    "static/css/main.644ebe4d.css",
-    "static/js/main.f285530c.js"
+    "static/css/main.9a711ed9.css",
+    "static/js/main.5a544d11.js"
   ]
 }
