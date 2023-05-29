@@ -30,3 +30,16 @@
 .swiper-button-prev:hover {
   transform: scale(2); /* Adjust the desired scale value */
 }
+
+@media screen and (max-width: 767px) {
+  /* Add your existing styles for mobile here */
+  .hover-effect:hover,
+  .zoom-hover:hover,
+  .custom-link:hover,
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    transform: none; /* Remove the transform scale effect */
+    box-shadow: none; /* Remove the box shadow effect */
+    /* Add any other styles you want for mobile */
+  }
+}
