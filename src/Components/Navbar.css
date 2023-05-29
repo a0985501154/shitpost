@@ -50,3 +50,17 @@
 .home-link:hover::after {
   opacity: 1;
 }
+
+@media screen and (max-width: 1000px) {
+  /* Remove hover effect and ::after pseudo-element on mobile */
+  .home-link:hover {
+    transform: none;
+  }
+  .home-link:hover::after {
+    display: none !important;
+  }
+
+  .custom-link:hover {
+    transform: none; /* Remove transform scale effect on mobile */
+  }
+}
